@@ -1,0 +1,82 @@
+{
+  "recipes": [
+    {
+      "name": "Sauce tomates, haricots rouges",
+      "image": "./images/sauce_tomates_haricots_rouges.jpg",
+      "servings": 6,
+      "preparationTime": "30min",
+      "season": "Toutes",
+      "ingredients": [
+        {
+          "name": "oignon",
+          "nb": 1
+        },
+        {
+          "name": "gousses d'ail",
+          "nb": 2
+        },
+        {
+          "name": "boite de colis de tomates",
+          "nb": 1
+        },
+        {
+          "name": "boite de concassé de tomates",
+          "nb": 1
+        },
+        {
+          "name": "boite haricots rouges",
+          "nb": 1
+        },
+        {
+          "name": "sel"
+        },
+        {
+          "name": "poivre"
+        },
+        {
+          "name": "huile d'olive"
+        }
+      ],
+      "instructions": [
+        "Faire revenir l'oigon dans l'huile d'olive",
+        "Ajouter les boites de tomates",
+        "Ajouter l'ail pressé",
+        "Ajouter les haricots rouges",
+        "Servir avec du riz ou des pates"
+      ]
+    },
+    {
+      "name": "Gaufres healthy",
+      "image": "./images/gaufres.jpg",
+      "servings": 3,
+      "preparationTime": "20min",
+      "season": "Toutes",
+      "ingredients": [
+        {
+          "name": "oeufs",
+          "nb": 2
+        },
+        {
+          "name": "compote de pomme",
+          "nb": 30
+        },
+        {
+          "name": "farine d'epeautre",
+          "nb": 140
+        },
+        {
+          "name": "levure",
+          "nb": 3
+        },
+        {
+          "name": "sel"
+        }
+      ],
+      "instructions": [
+        "Mixer tous les ingrédients dans un blander",
+        "Verser la pate dans un gaufrier",
+        "Laisser cuire environ 4 minutes 30"
+      ]
+    }
+  ]
+}
