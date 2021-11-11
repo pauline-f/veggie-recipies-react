@@ -5,7 +5,10 @@ const PORT = process.env.PORT || 3001;
 
 const app = express();
 
-fs.readFile("./service/recipes.json", (err, data) => {
+app.use(express.static('public'));  
+app.use('/images', express.static('images'));
+
+fs.readFile("./recipes.json", (err, data) => {
   if (err) {
     console.log("File read failed:", err);
     return;
@@ -14,6 +17,8 @@ fs.readFile("./service/recipes.json", (err, data) => {
   app.get('/recipes', (req, res) => {
     res.json(recipes);
   });
+
+
 });
 
 

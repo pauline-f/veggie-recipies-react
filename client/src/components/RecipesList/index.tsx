@@ -11,9 +11,9 @@ const AppTitle = () => {
   }, []);
 
   return (
-    <>
-      {!data ? "Loading..." : data.map((d: any) => <p>{d.name}</p>)}
-    </>
+    <div style={{display: 'flex', flexDirection: 'column'}}>
+      {!data ? "Loading..." : data.map((d: any) => <div style={{display: 'flex'}}><img src={d.image} alt={d.name} style={{width: 80, height: 80}} /><p>{d.name}</p></div>)}
+    </div>
   )
 }
 
