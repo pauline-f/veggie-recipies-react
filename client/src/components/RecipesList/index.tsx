@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { RecipeProps } from '../../types';
+import RecipeItem from '../RecipeItem';
 
-const AppTitle = () => {
+const RecipesList = () => {
 
   const [data, setData] = useState([]);
 
@@ -11,10 +13,10 @@ const AppTitle = () => {
   }, []);
 
   return (
-    <div style={{display: 'flex', flexDirection: 'column'}}>
-      {!data ? "Loading..." : data.map((d: any) => <div style={{display: 'flex'}}><img src={d.image} alt={d.name} style={{width: 80, height: 80}} /><p>{d.name}</p></div>)}
+    <div style={{display: 'flex', flexDirection: 'column', padding: 3}}>
+      {!data ? "Loading..." : data.map((recipe: RecipeProps) => <RecipeItem {...recipe} />)}
     </div>
   )
 }
 
-export default AppTitle;
+export default RecipesList;
