@@ -18,11 +18,12 @@ fs.readFile("./recipes.json", (err, data) => {
     res.json(recipes);
   });
 
-
+  app.get('/recipes/:id', (req, res) => {
+    const id = req.params.id
+    const recipe = recipes.recipes.find(recipe => recipe.id === parseInt(id))
+    res.json(recipe)
+  });
 });
-
-
-
 
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);

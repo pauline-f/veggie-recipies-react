@@ -1,6 +1,7 @@
 {
   "recipes": [
     {
+      "id": 1,
       "name": "Sauce tomates, haricots rouges",
       "image": "./images/sauce_tomates_haricots_rouges.jpg",
       "servings": 6,
@@ -46,6 +47,7 @@
       ]
     },
     {
+      "id": 2,
       "name": "Gaufres healthy",
       "image": "./images/gaufres.jpg",
       "servings": 3,
