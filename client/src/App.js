@@ -1,6 +1,8 @@
 import React from "react";
 import AppTitle from "./components/AppTitle";
 import RecipesList from "./components/RecipesList";
+import { Routes, Route } from "react-router-dom";
+import RecipeDetails from "./components/RecipeDetails";
 
 const App = () => {
 
@@ -8,8 +10,11 @@ const App = () => {
     <div>
       <header>
         <AppTitle />
-        <RecipesList />
       </header>
+      <Routes>
+        <Route path="/" element={<RecipesList />} />
+        <Route path="/recipes/:id" element={<RecipeDetails />} />
+      </Routes>
     </div>
   );
 }

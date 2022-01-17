@@ -1,4 +1,5 @@
 export interface RecipeProps {
+  id: number
   name: string
   image: string
   season: string
