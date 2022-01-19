@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { RecipeProps } from '../../types';
 import { useParams } from "react-router-dom";
+import IngredientsList from '../IngredientsList';
 
 const RecipeDetails = () => {
 
@@ -21,6 +22,8 @@ const RecipeDetails = () => {
   return (
     <div>
       <h2>{recipeDetails.name}</h2>
+      <IngredientsList {...recipeDetails} />
+      
     </div>
   )
 }

@@ -60,15 +60,18 @@
         },
         {
           "name": "compote de pomme",
-          "nb": 30
+          "nb": 30,
+          "volume": "gr"
         },
         {
           "name": "farine d'epeautre",
-          "nb": 140
+          "nb": 140,
+          "volume": "gr"
         },
         {
           "name": "levure",
-          "nb": 3
+          "nb": 3,
+          "volume": "gr"
         },
         {
           "name": "sel"

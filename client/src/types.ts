@@ -9,5 +9,6 @@ export interface RecipeProps {
 
 export interface IngredientsProps {
   name: string
-  nb: number
+  nb?: number
+  volume?: string
 }
