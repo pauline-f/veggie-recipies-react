@@ -1,9 +1,12 @@
 import React from 'react';
+import "./styles.css";
 
 const AppTitle = () => {
 
   return (
-    <h1>Recettes végétariennes</h1>
+    <div className="title">
+      <h1>Recettes végétariennes</h1>
+    </div>
   )
 }
 

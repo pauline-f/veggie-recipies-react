@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { RecipeProps } from '../../types';
 import RecipeItem from '../RecipeItem';
+import "./styles.css";
 
 const RecipesList = () => {
 
@@ -13,7 +14,7 @@ const RecipesList = () => {
   }, []);
 
   return (
-    <div style={{display: 'flex', flexDirection: 'column', padding: 3}}>
+    <div className="list-wrapper">
       {!data ? "Loading..." : data.map((recipe: RecipeProps) => <RecipeItem {...recipe} />)}
     </div>
   )

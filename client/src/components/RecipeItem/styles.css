@@ -1,0 +1,26 @@
+.image {
+   width: 250px;
+   height: 250px;
+}
+
+.wrapper {
+  display: 'flex';
+  padding: 3;
+  border: solid 1px;
+  border-radius: 5px;
+  width: 250px;
+  margin-right: 40px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+.link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.title-recipe {
+  padding-left: 5px;
+}
