@@ -82,6 +82,97 @@
         "Verser la pate dans un gaufrier",
         "Laisser cuire environ 4 minutes 30"
       ]
+    },
+    {
+      "id": 3,
+      "name": "Crêpes",
+      "image": "./images/crepes.jpg",
+      "servings": 4,
+      "preparationTime": "45min",
+      "season": "Toutes",
+      "ingredients": [
+        {
+          "name": "oeufs",
+          "nb": 8
+        },
+        {
+          "name": "lait",
+          "nb": 70,
+          "volume": "cl"
+        },
+        {
+          "name": "bière",
+          "nb": 30,
+          "volume": "cl"
+        },
+        {
+          "name": "farine",
+          "nb": 500,
+          "volume": "gr"
+        },
+        {
+          "name": "huile",
+          "nb": 20,
+          "volume": "gr"
+        },
+        {
+          "name": "sel"
+        }
+      ],
+      "instructions": [
+        "Mixer tous les ingrédients dans un blander",
+        "Verser un peu de pâte dans un poële à crêpes",
+        "Retourner quand la crêpe commence à se détacher de la poële"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pain",
+      "image": "./images/pain.jpg",
+      "servings": 6,
+      "preparationTime": "3h",
+      "season": "Toutes",
+      "ingredients": [
+        {
+          "name": "farine normale",
+          "nb": 250,
+          "volume": "gr"
+        },
+        {
+          "name": "farine complète",
+          "nb": 250,
+          "volume": "gr"
+        },
+        {
+          "name": "eau",
+          "nb": 300,
+          "volume": "cl"
+        },
+        {
+          "name": "levure de boulanger",
+          "nb": 20,
+          "volume": "gr"
+        },
+        {
+          "name": "sel",
+          "nb": 10,
+          "volume": "gr"
+        },
+        {
+          "name": "graines (courge, lin, tournesol)",
+          "nb": 100,
+          "volume": "gr"
+        }
+      ],
+      "instructions": [
+        "Mélanger la levure dans l'eau chaude pendant 10 min",
+        "Mélanger les farines, avec le sel et les graines",
+        "Ajouter l'eau avec la levure et pétrir",
+        "Laisser reposer dans un saladier avec un linge par dessus pendant 2h",
+        "Préchauffer le four à 200 degrès",
+        "Former un pain et déposer le sur du papier sulfurisé",
+        "Faire cuire 30 min"
+      ]
     }
   ]
 }
